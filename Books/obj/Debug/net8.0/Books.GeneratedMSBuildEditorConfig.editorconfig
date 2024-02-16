@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Sofia Dahlberg\OneDrive\Dokument\Webbutvecklare\.net core\EntityFramework\Books
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Author/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Author/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Author/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Author/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Author/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,26 +72,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Name/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFtZVxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Name/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFtZVxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Name/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFtZVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Name/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFtZVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Name/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sofia Dahlberg/OneDrive/Dokument/Webbutvecklare/.net core/EntityFramework/Books/Views/Shared/Error.cshtml]

@@ -1,14 +1,53 @@
 html {
   font-size: 14px;
 }
+td{
+  line-height: 30px;
+}
+.EditBtn, .EditBtn1 {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(53, 53, 248);
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+padding: 3%;
+}
 
+.EditBtn:hover, .DetailsBtn:hover, .DeleteBtn:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  
+}
+
+.DetailsBtn, .DetailsBtn1 {
+  text-decoration: none;
+  background-color: green;
+  padding: 3%;
+  color: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+margin-top: 5%;
+}
+
+.DeleteBtn, .DeleteBtn1 {
+  text-decoration: none;
+  background-color: red;
+  color: #ffffff;
+  padding: 3%;
+  border: 1px solid #000000;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
@@ -20,3 +59,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.EditBtn1, .DeleteBtn1, .DetailsBtn1{
+  padding: 1.5%;
+}
+.EditBtn1:hover, .DetailsBtn1:hover, .DeleteBtn1:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  
+}
+

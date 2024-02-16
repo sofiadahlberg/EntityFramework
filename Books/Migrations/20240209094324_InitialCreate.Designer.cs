@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Books.Migrations
 {
     [DbContext(typeof(BookContext))]
-    [Migration("20240208122122_InitialCreate")]
+    [Migration("20240209094324_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -19,14 +19,25 @@ namespace Books.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.1");
 
-            modelBuilder.Entity("Books.Models.Book", b =>
+            modelBuilder.Entity("Books.Models.Author", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Author")
+                    b.Property<string>("Name")
                         .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Authors");
+                });
+
+            modelBuilder.Entity("Books.Models.Book", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("AuthorId")
                         .HasColumnType("INTEGER");
@@ -42,21 +53,25 @@ namespace Books.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AuthorId");
+
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("Books.Models.Name", b =>
+            modelBuilder.Entity("Books.Models.Book", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.HasOne("Books.Models.Author", "Author")
+                        .WithMany("Books")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<string>("Author")
-                        .HasColumnType("TEXT");
+                    b.Navigation("Author");
+                });
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Names");
+            modelBuilder.Entity("Books.Models.Author", b =>
+                {
+                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }

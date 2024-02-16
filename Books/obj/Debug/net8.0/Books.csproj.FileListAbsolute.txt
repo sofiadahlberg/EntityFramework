@@ -275,3 +275,4 @@ C:\Users\Sofia Dahlberg\OneDrive\Dokument\Webbutvecklare\.net core\EntityFramewo
 C:\Users\Sofia Dahlberg\OneDrive\Dokument\Webbutvecklare\.net core\EntityFramework\Books\obj\Debug\net8.0\Books.pdb
 C:\Users\Sofia Dahlberg\OneDrive\Dokument\Webbutvecklare\.net core\EntityFramework\Books\obj\Debug\net8.0\Books.genruntimeconfig.cache
 C:\Users\Sofia Dahlberg\OneDrive\Dokument\Webbutvecklare\.net core\EntityFramework\Books\obj\Debug\net8.0\ref\Books.dll
+C:\Users\Sofia Dahlberg\OneDrive\Dokument\Webbutvecklare\.net core\EntityFramework\Books\obj\Debug\net8.0\Books.sourcelink.json

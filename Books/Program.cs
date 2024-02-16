@@ -1,5 +1,5 @@
-using Books.Data;
 using Microsoft.EntityFrameworkCore;
+using Books.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
